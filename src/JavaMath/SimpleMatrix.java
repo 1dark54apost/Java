@@ -50,7 +50,7 @@ public class SimpleMatrix {
             relustExpr = new AdditionVar(relustExpr,sonExpr);
         }
         return relustExpr;
-    }
+    }  //计算行列式
 
     public void print(Expr[][] exprs){
         for (int i=0;i<exprs.length;i++){
